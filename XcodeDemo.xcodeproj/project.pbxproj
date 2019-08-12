@@ -3,18 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE033DA023013D7F00C4F986 /* mydata.json in Resources */ = {isa = PBXBuildFile; fileRef = FE033D9F23013D7F00C4F986 /* mydata.json */; };
+		FE033DA223013E5B00C4F986 /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE033DA123013E5B00C4F986 /* Drink.swift */; };
+		FE033DA423013F5C00C4F986 /* DrinkItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE033DA323013F5C00C4F986 /* DrinkItem.swift */; };
+		FE033DA623013FA400C4F986 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE033DA523013FA400C4F986 /* Data.swift */; };
+		FE033DA823014B1400C4F986 /* DrinkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE033DA723014B1400C4F986 /* DrinkRow.swift */; };
 		FE07E2C822ED8DBC00000B70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE07E2C722ED8DBC00000B70 /* AppDelegate.swift */; };
 		FE07E2CA22ED8DBC00000B70 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE07E2C922ED8DBC00000B70 /* SceneDelegate.swift */; };
-		FE07E2CC22ED8DBC00000B70 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE07E2CB22ED8DBC00000B70 /* ContentView.swift */; };
+		FE07E2CC22ED8DBC00000B70 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE07E2CB22ED8DBC00000B70 /* HomeView.swift */; };
 		FE07E2CE22ED8DBF00000B70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE07E2CD22ED8DBF00000B70 /* Assets.xcassets */; };
 		FE07E2D122ED8DBF00000B70 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE07E2D022ED8DBF00000B70 /* Preview Assets.xcassets */; };
 		FE07E2D422ED8DBF00000B70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE07E2D222ED8DBF00000B70 /* LaunchScreen.storyboard */; };
 		FE07E2DF22ED8DC000000B70 /* XcodeDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE07E2DE22ED8DC000000B70 /* XcodeDemoTests.swift */; };
 		FE07E2EA22ED8DC000000B70 /* XcodeDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE07E2E922ED8DC000000B70 /* XcodeDemoUITests.swift */; };
+		FE41BC04230075B2001440D6 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = FE41BC03230075B2001440D6 /* Alamofire */; };
+		FEA4446D23017C2300A03545 /* DrinkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA4446C23017C2300A03545 /* DrinkDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +42,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FE033D9F23013D7F00C4F986 /* mydata.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = mydata.json; sourceTree = "<group>"; };
+		FE033DA123013E5B00C4F986 /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+		FE033DA323013F5C00C4F986 /* DrinkItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkItem.swift; sourceTree = "<group>"; };
+		FE033DA523013FA400C4F986 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		FE033DA723014B1400C4F986 /* DrinkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkRow.swift; sourceTree = "<group>"; };
 		FE07E2C422ED8DBC00000B70 /* XcodeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XcodeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE07E2C722ED8DBC00000B70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE07E2C922ED8DBC00000B70 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FE07E2CB22ED8DBC00000B70 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FE07E2CB22ED8DBC00000B70 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		FE07E2CD22ED8DBF00000B70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE07E2D022ED8DBF00000B70 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FE07E2D322ED8DBF00000B70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +61,7 @@
 		FE07E2E522ED8DC000000B70 /* XcodeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XcodeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE07E2E922ED8DC000000B70 /* XcodeDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcodeDemoUITests.swift; sourceTree = "<group>"; };
 		FE07E2EB22ED8DC000000B70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEA4446C23017C2300A03545 /* DrinkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE41BC04230075B2001440D6 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,11 +115,17 @@
 			children = (
 				FE07E2C722ED8DBC00000B70 /* AppDelegate.swift */,
 				FE07E2C922ED8DBC00000B70 /* SceneDelegate.swift */,
-				FE07E2CB22ED8DBC00000B70 /* ContentView.swift */,
+				FE07E2CB22ED8DBC00000B70 /* HomeView.swift */,
 				FE07E2CD22ED8DBF00000B70 /* Assets.xcassets */,
 				FE07E2D222ED8DBF00000B70 /* LaunchScreen.storyboard */,
 				FE07E2D522ED8DBF00000B70 /* Info.plist */,
 				FE07E2CF22ED8DBF00000B70 /* Preview Content */,
+				FE033D9F23013D7F00C4F986 /* mydata.json */,
+				FE033DA123013E5B00C4F986 /* Drink.swift */,
+				FE033DA323013F5C00C4F986 /* DrinkItem.swift */,
+				FE033DA523013FA400C4F986 /* Data.swift */,
+				FE033DA723014B1400C4F986 /* DrinkRow.swift */,
+				FEA4446C23017C2300A03545 /* DrinkDetail.swift */,
 			);
 			path = XcodeDemo;
 			sourceTree = "<group>";
@@ -152,6 +172,9 @@
 			dependencies = (
 			);
 			name = XcodeDemo;
+			packageProductDependencies = (
+				FE41BC03230075B2001440D6 /* Alamofire */,
+			);
 			productName = XcodeDemo;
 			productReference = FE07E2C422ED8DBC00000B70 /* XcodeDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -224,6 +247,9 @@
 				Base,
 			);
 			mainGroup = FE07E2BB22ED8DBC00000B70;
+			packageReferences = (
+				FE41BC02230075B2001440D6 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = FE07E2C522ED8DBC00000B70 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -243,6 +269,7 @@
 				FE07E2D422ED8DBF00000B70 /* LaunchScreen.storyboard in Resources */,
 				FE07E2D122ED8DBF00000B70 /* Preview Assets.xcassets in Resources */,
 				FE07E2CE22ED8DBF00000B70 /* Assets.xcassets in Resources */,
+				FE033DA023013D7F00C4F986 /* mydata.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,8 +295,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE07E2C822ED8DBC00000B70 /* AppDelegate.swift in Sources */,
+				FE033DA623013FA400C4F986 /* Data.swift in Sources */,
+				FE033DA823014B1400C4F986 /* DrinkRow.swift in Sources */,
+				FE033DA423013F5C00C4F986 /* DrinkItem.swift in Sources */,
 				FE07E2CA22ED8DBC00000B70 /* SceneDelegate.swift in Sources */,
-				FE07E2CC22ED8DBC00000B70 /* ContentView.swift in Sources */,
+				FE033DA223013E5B00C4F986 /* Drink.swift in Sources */,
+				FE07E2CC22ED8DBC00000B70 /* HomeView.swift in Sources */,
+				FEA4446D23017C2300A03545 /* DrinkDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,6 +618,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FE41BC02230075B2001440D6 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.8.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FE41BC03230075B2001440D6 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FE41BC02230075B2001440D6 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FE07E2BC22ED8DBC00000B70 /* Project object */;
 }
